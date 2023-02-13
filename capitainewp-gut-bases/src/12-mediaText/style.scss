@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-capitainewp-gut-bases {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+.wp-block-capitainewp-media-text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap:1rem
+}
+.capitaine-image-wrapper{
+	display: flex;
+	flex-direction: row;
+}
+ .text{
+	width: 50%;
+}
+.picturelegend{
+	position: relative;
+	width: 50%;
+}
+.legende{
+	position: absolute;
+	bottom: 0;
+	background-color: #242424c9;
+	font-style: italic;
+	font-weight: 300;
+	color: white;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, 0);
+	text-align: center;
+
+}
